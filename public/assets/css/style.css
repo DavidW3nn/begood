@@ -1,0 +1,263 @@
+/* Home & About */
+
+/* Navbar Dropdown Hover*/
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    z-index: 1000;
+}
+
+/* Custom CSS for smooth appearance */
+#loadingModal .modal-content {
+    border-radius: 10px;
+    animation: fadeIn 0.5s;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.spinner-border {
+    width: 3rem;
+    height: 3rem;
+}
+
+/* Box Rekening Yayasan */
+.card {
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0px 20px rgba(0, 0, 0, 0.05);
+}
+
+.copy-btn {
+    display: none;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.card:hover .copy-btn {
+    display: block; /* Tampilkan tombol saat kartu dihover */
+}
+
+/* Carousel */
+.gallery {
+    width: 100%;
+    margin-top: 300px;
+}
+
+.gallery-container {
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+    max-width: 1000px;
+    position: relative;
+}
+
+.gallery-container .gallery-item {
+    height: 250px;
+    opacity: 0;
+    position: absolute;
+    transition: all 0.3s ease-in-out;
+    width: 330px;
+    z-index: 0;
+    border-radius: 15px;
+    background-size: contain;
+}
+
+.gallery-container .gallery-item-1 {
+    left: 15%;
+    opacity: 0.4;
+    transform: translateX(-50%);
+}
+.gallery-container .gallery-item-2,
+.gallery-item-4 {
+    height: 250px;
+    opacity: 0.8;
+    width: 380px;
+    z-index: 1;
+}
+
+.gallery-container .gallery-item-2 {
+    left: 30%;
+    transform: translateX(-50%);
+}
+
+.gallery-container .gallery-item-3 {
+    box-shadow: -2px 5px 33px 6px rgba(0, 0, 0, 0.35);
+    height: 300px;
+    opacity: 1;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 500px;
+    z-index: 2;
+}
+
+.gallery-container .gallery-item-4 {
+    left: 70%;
+    transform: translateX(-50%);
+}
+
+.gallery-container .gallery-item-5 {
+    left: 85%;
+    opacity: 0.4;
+    transform: translateX(-50%);
+}
+
+.gallery-controls {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px 0;
+    height: 100px;
+    position: relative;
+    z-index: 3;
+}
+
+.gallery-controls button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 30px;
+    margin: 0 50px;
+    padding: 12px;
+    text-transform: capitalize;
+}
+
+.gallery-controls-button:focus {
+    outline: none;
+}
+
+.gallery-controls-previous {
+    position: relative;
+}
+
+.gallery-controls-previous::before {
+    border: solid white;
+    border-width: 0 5px 5px 0;
+    content: "";
+    display: inline-block;
+    height: 5px;
+    left: -250px;
+    padding: 10px;
+    position: absolute;
+    top: 30%;
+    transform: rotate(135deg) translateX(-50%);
+    transition: left 0.15s ease-in-out;
+    width: 5px;
+}
+
+.gallery-controls-previous:hover::before {
+    /* left: -40px; */
+}
+
+.gallery-controls-next {
+    position: relative;
+}
+
+.gallery-controls-next::before {
+    border: solid white;
+    border-width: 0 5px 5px 0;
+    content: "";
+    display: inline-block;
+    height: 5px;
+    padding: 10px;
+    position: absolute;
+    right: -230px;
+    top: 30px;
+    transform: rotate(-45deg) translateX(50%);
+    transition: right 0.15s ease-in-out;
+    width: 5px;
+}
+
+.gallery-controls-next:hover::before {
+    /* right: -40px; */
+}
+
+.gallery-nav {
+    bottom: -15px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+}
+
+.gallery nav li {
+    background: #ccc;
+    border-radius: 50%;
+    height: 10px;
+    margin: 0 10px;
+    width: 10px;
+}
+
+.gallery nav li.gallery-item-selected {
+    background: #555;
+}
+
+@media (max-width: 768px) {
+    .gallery-controls-previous::before {
+        left: -150px; /* Sesuaikan untuk tablet dan perangkat kecil */
+        top: 20px;
+    }
+    .gallery-controls-next::before {
+        right: -130px; /* Sesuaikan untuk tablet dan perangkat kecil */
+        top: 20px;
+    }
+    .gallery {
+        overflow-x: hidden; /* Menghilangkan overflow-x */
+    }
+}
+
+@media (max-width: 425px) {
+    .gallery-controls-previous::before {
+        left: -120px; /* Sesuaikan untuk perangkat ponsel */
+        top: 15px;
+    }
+    .gallery-controls-next::before {
+        right: -100px; /* Sesuaikan untuk perangkat ponsel */
+        top: 15px;
+    }
+}
+
+@media (max-width: 320px) {
+    .gallery-controls-previous::before {
+        left: -70px; /* Sesuaikan untuk perangkat ponsel */
+        top: 15px;
+    }
+    .gallery-controls-next::before {
+        right: -50px; /* Sesuaikan untuk perangkat ponsel */
+        top: 15px;
+    }
+}
+
+/* Card untuk Struktur Yayasan dan Pengurus */
+.struktur-yayasan,
+.pengurus {
+    cursor: pointer;
+    color: white;
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="%23273036" fill-opacity="1" d="M0,288L34.3,256C68.6,224,137,160,206,154.7C274.3,149,343,203,411,224C480,245,549,235,617,202.7C685.7,171,754,117,823,90.7C891.4,64,960,64,1029,101.3C1097.1,139,1166,213,1234,245.3C1302.9,277,1371,267,1406,261.3L1440,256L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path></svg>')
+        no-repeat bottom;
+    background-size: cover;
+    transition: transform 0.3s; /* Transisi untuk efek perpindahan */
+}
+
+.struktur-yayasan:hover,
+.pengurus:hover {
+    transform: scale(1.05); /* Memberikan efek zoom saat di-hover */
+}
+
+/* Halaman Reports */
