@@ -45,4 +45,28 @@ return [
     'laporan_kegiatan' => '活动报告',
     'notif_rek' => '账号成功复制到剪贴板',
     'salin' => '复制',
+    // Acitivy Page
+    'foto_kegiatan_yayasan' => '善良基金会活动照片',
+    'video_kegiatan_yayasan' => '善良基金会活动视频',
+    'kegiatan_yang_sedang_berjalan' => '正在进行的活动',
+    'kegiatan_yang_akan_datang' => '即将到来的活动',
+    'lihat_video_kegiatan_berjalan_lainnya' => '查看其他正在进行的活动视频',
+    'lanjut' => '继续...',
+    'lihat_kegiatan_berjalan_lainnya' => '查看其他正在进行的活动',
+    'lihat_kegiatan_yang_akan_datang_lainnya' => '查看其他即将到来的活动',
+    // List Video Aktivitas Page
+    'daftar_video_kegiatan' => '活动视频列表',
+    'detail' => '详细',
+    // Detail video
+    'kirim' => '发送',
+    'komentar' => '评论',
+    'placeholder_tanggapan_komentar' => '您对这段视频的反馈是什么？',
+    'daftar_komentar' => '评论列表',
+    // Detail Kegiatan yang sedang berjalan
+    'donasi' => '捐赠',
+    // Modal Info Rekening
+    'info_rekening_bank' => '银行账号信息',
+    'bank' => '银行',
+    'atas_nama' => '账户名',
+    'tutup' => '关闭',
 ];

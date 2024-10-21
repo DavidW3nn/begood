@@ -63,9 +63,9 @@
                     @lang('message.aktivitas/berita')
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink4">
-                    <a class="dropdown-item" href="#">@lang('message.kegiatan_yayasan')</a>
-                    <a class="dropdown-item" href="#">@lang('message.profile_guru/sekolah')</a>
-                    <a class="dropdown-item" href="#">@lang('message.SMB_Kalbar')</a>
+                    <a class="dropdown-item" href="/activity">@lang('message.kegiatan_yayasan')</a>
+                    <a class="dropdown-item" href="/profile">@lang('message.profile_guru/sekolah')</a>
+                    <a class="dropdown-item" href="/smb">@lang('message.SMB_Kalbar')</a>
                 </div>
             </li>
 

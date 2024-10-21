@@ -45,4 +45,29 @@ return [
     'laporan_kegiatan' => 'Laporan Kegiatan',
     'notif_rek' => 'Nomor Rekening Berhasil Di Copy',
     'salin' => 'Salin',
+    // Activity Page
+
+    'foto_kegiatan_yayasan' => 'Foto Kegiatan Yayasan Be Good',
+    'video_kegiatan_yayasan' => 'Video Kegiatan Yayasan Be Good',
+    'kegiatan_yang_sedang_berjalan' => 'Kegiatan Yang Sedang Berjalan',
+    'kegiatan_yang_akan_datang' => 'Kegiatan Yang Akan Datang',
+    'lihat_video_kegiatan_berjalan_lainnya' => 'Lihat Video Kegiatan Berjalan Lainnya',
+    'lanjut' => 'Lanjut...',
+    'lihat_kegiatan_berjalan_lainnya' => 'Lihat Kegiatan Berjalan Lainnya',
+    'lihat_kegiatan_yang_akan_datang_lainnya' => 'Lihat Kegiatan Yang Akan Datang Lainnya',
+    // List Video Aktivitas Page
+    'daftar_video_kegiatan' => 'Daftar Video Kegiatan Yayasan Be Good',
+    'detail' => 'Rincian',
+    // Detail Video
+    'kirim' => 'Kirim',
+    'komentar' => 'Komentar',
+    'placeholder_tanggapan_komentar' => 'Bagaimana tanggapan anda terhadap video ini?',
+    'daftar_komentar' => 'Daftar Komentar',
+    // Detail Kegiatan yang sedang berjalan
+    'donasi' => 'Donasi',
+    // Modal Info Rekening
+    'info_rekening_bank' => 'Informasi Rekening Bank',
+    'bank' => 'Bank',
+    'atas_nama' => 'Atas Nama',
+    'tutup' => 'Tutup',
 ];

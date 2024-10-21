@@ -73,7 +73,7 @@
             <h3 class="m-3 fw-bold">@lang('message.no_rek_yayasan')</h3>
             <hr style="border: 1px solid #f1f1f1; width: 30%; margin-bottom: 20px;">
             <div class="d-flex flex-wrap justify-content-center" style="overflow-x: auto;">
-                <div class="card text-black bg-light mb-3 bg-white mx-2"
+                <div class="card-rek text-black bg-light mb-3 bg-white mx-2"
                     style="max-width: 16rem; border: 2px solid rgb(243, 243, 243); border-radius: 15px; overflow: hidden;">
                     <div class="card-body text-center p-4">
                         <img src="{{ asset('assets/image/banks/bca.png') }}" alt="Logo BCA" width="150px">
@@ -86,7 +86,7 @@
                     </div>
                 </div>
 
-                <div class="card text-black bg-light mb-3 bg-white mx-2"
+                <div class="card-rek text-black bg-light mb-3 bg-white mx-2"
                     style="max-width: 16rem; border: 2px solid rgb(243, 243, 243); border-radius: 15px; overflow: hidden;">
                     <div class="card-body text-center p-4">
                         <img src="{{ asset('assets/image/banks/bri.png') }}" alt="Logo BRI" width="150px">
@@ -99,7 +99,7 @@
                     </div>
                 </div>
 
-                <div class="card text-black bg-light mb-3 bg-white mx-2"
+                <div class="card-rek text-black bg-light mb-3 bg-white mx-2"
                     style="max-width: 16rem; border: 2px solid rgb(243, 243, 243); border-radius: 15px; overflow: hidden;">
                     <div class="card-body text-center p-4">
                         <img src="{{ asset('assets/image/banks/qris1.png') }}" alt="Logo QRIS" width="150px">
@@ -110,7 +110,7 @@
                     </div>
                 </div>
 
-                <div class="card text-black bg-light mb-3 bg-white mx-2"
+                <div class="card-rek text-black bg-light mb-3 bg-white mx-2"
                     style="max-width: 16rem; border: 2px solid rgb(243, 243, 243); border-radius: 15px; overflow: hidden;">
                     <div class="card-body text-center p-4">
                         <img src="{{ asset('assets/image/banks/qris2.png') }}" alt="Logo QR E-Payment" width="150px">

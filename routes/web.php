@@ -20,6 +20,108 @@ Route::get('/report', function () {
     ]);
 });
 
+// Aktivitas/Beritas
+// Activity
+Route::get('/activity', function () {
+    return view('pages.activity_pages.activity', [
+        'title' => 'Kegiatan',
+        'activities' => [
+            [
+                'image' => 'kegiatan1.jpg',
+                'title' => 'Program Pendidikan Daerah Terpencil',
+                'description' => 'Kegiatan ini bertujuan untuk meningkatkan pendidikan di daerah terpencil dengan sesi pembelajaran dan materi pendidikan untuk anak-anak.',
+            ],
+            [
+                'image' => 'kegiatan2.jpg',
+                'title' => 'Pengembangan Keterampilan Sosial Anak',
+                'description' => 'Fokus pada pengembangan keterampilan sosial anak-anak melalui permainan dan aktivitas interaktif yang meningkatkan kerja sama dan komunikasi.',
+            ],
+            [
+                'image' => 'kegiatan3.jpg',
+                'title' => 'Edukasi Lingkungan',
+                'description' => 'Kegiatan ini mengedukasi anak-anak tentang pentingnya menjaga lingkungan dengan penanaman pohon dan seminar tentang perlunya menjaga alam.',
+            ],
+            [
+                'image' => 'kegiatan4.jpg',
+                'title' => 'Bakti Sosial Masyarakat',
+                'description' => 'Acara bakti sosial yang melibatkan masyarakat dengan menyediakan makanan dan perlengkapan sekolah untuk anak-anak kurang mampu.',
+            ],
+            [
+                'image' => 'kegiatan5.jpg',
+                'title' => 'Pelatihan Keterampilan untuk Remaja',
+                'description' => 'Workshop tentang kewirausahaan dan pengembangan diri untuk memberikan keterampilan kepada remaja.',
+            ],
+            [
+                'image' => 'kegiatan6.jpg',
+                'title' => 'Kompetisi Olahraga Anak',
+                'description' => 'Program olahraga yang mengajak anak-anak untuk aktif berolahraga dengan berbagai kompetisi untuk meningkatkan kesehatan dan kebugaran.',
+            ],
+            [
+                'image' => 'kegiatan7.jpg',
+                'title' => 'Kelas Seni untuk Anak',
+                'description' => 'Kegiatan yang mengajak anak-anak untuk berkreasi melalui seni dengan kelas menggambar dan melukis untuk menyalurkan bakat mereka.',
+            ],
+            [
+                'image' => 'kegiatan8.jpg',
+                'title' => 'Program Literasi Anak',
+                'description' => 'Program yang bertujuan meningkatkan minat baca anak-anak dengan mendirikan perpustakaan kecil dan mengadakan sesi membaca bersama.',
+            ],
+        ],
+    ]);
+});
+
+Route::get('list-activity-videos', function () {
+    return view('pages.activity_pages.listActivityVideos', [
+        'title' => 'List Activity Videos',
+    ]);
+});
+
+Route::get('/video-detail', function () {
+    return view('pages.activity_pages.videoDetail', [
+        'title' => 'Detail Video',
+    ]);
+});
+
+// Kegiatan yagn sedang berjalan
+Route::get('/list-ongoing-activities', function () {
+    return view('pages.activity_pages.listActivities', [
+        'title' => 'List Ongoing Activities',
+        'activity' => 'Ongoing',
+    ]);
+});
+
+Route::get('/ongoing-activity-detail', function () {
+    return view('pages.activity_pages.activityDetail', [
+        'title' => 'Ongoing Activity Detail',
+    ]);
+});
+// Kegiatan yang akan datang
+Route::get('/list-upcoming-activities', function () {
+    return view('pages.activity_pages.listActivities', [
+        'title' => 'Upcoming Activity Detail',
+        'activity' => 'Upcoming',
+    ]);
+});
+Route::get('/upcoming-activity-detail', function () {
+    return view('pages.activity_pages.activityDetail', [
+        'title' => 'Upcoming Activity Detail',
+    ]);
+});
+
+// Profil
+Route::get('/profile', function () {
+    return view('pages.activity_pages.profile', [
+        'title' => 'Profil',
+    ]);
+});
+
+// SMB
+Route::get('/smb', function () {
+    return view('pages.activity_pages.smb', [
+        'title' => 'SMB Kalbar',
+    ]);
+});
+
 // Sinmpan local ke session
 Route::get('/locale/{locale}', function ($locale) {
     if (in_array($locale, ['en', 'id', 'ch'])) {
