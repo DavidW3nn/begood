@@ -70,4 +70,12 @@ return [
     'bank' => 'Bank',
     'atas_nama' => 'Atas Nama',
     'tutup' => 'Tutup',
+    // Profile Detail
+    'koordinator_guru_asuh' => 'Koordinator Guru Asuh Yayasan Be Good',
+    'guru_asuh' => 'Guru Asuh Yayasan Be Good',
+    'jumlah_guru_asuh' => 'Jumlah Guru Asuh YBG',
+    'jumlah_siswa_asuh' => 'Jumlah Siswa Asuh YBG',
+    // Profile Detail
+    'biografi_koordinator' => 'Biografi Koordinator Guru Asuh Yayasan Be Good',
+    'biografi_guru_asuh' => 'Biografi Guru Asuh Yayasan Be Good',
 ];

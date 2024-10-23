@@ -110,8 +110,22 @@ Route::get('/upcoming-activity-detail', function () {
 
 // Profil
 Route::get('/profile', function () {
-    return view('pages.activity_pages.profile', [
-        'title' => 'Profil',
+    return view('pages.activity_pages.profile.index', [
+        'title' => 'Profile',
+    ]);
+});
+// Untuk koordinator detail
+Route::get('/profile-coordinator-detail', function () {
+    return view('pages.activity_pages.profile.profileDetail', [
+        'title' => 'Profile Detail',
+        'role' => 'coordinator',
+    ]);
+});
+// Guru asuh detail
+Route::get('/profile-teacher-detail', function () {
+    return view('pages.activity_pages.profile.profileDetail', [
+        'title' => 'Profile Detail',
+        'role' => 'teacher',
     ]);
 });
 

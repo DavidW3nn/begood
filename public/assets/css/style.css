@@ -55,7 +55,7 @@
   display: block; /* Tampilkan tombol saat kartu dihover */
 }
 
-/* Carousel */
+/* Carousel(Jumbotron) */
 .gallery {
   width: 100%;
   margin-top: 300px;
@@ -252,12 +252,18 @@
   background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="%23273036" fill-opacity="1" d="M0,288L34.3,256C68.6,224,137,160,206,154.7C274.3,149,343,203,411,224C480,245,549,235,617,202.7C685.7,171,754,117,823,90.7C891.4,64,960,64,1029,101.3C1097.1,139,1166,213,1234,245.3C1302.9,277,1371,267,1406,261.3L1440,256L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path></svg>')
     no-repeat bottom;
   background-size: cover;
-  transition: transform 0.3s; /* Transisi untuk efek perpindahan */
+  transition: transform 0.3s; 
 }
 
 .struktur-yayasan:hover,
 .pengurus:hover {
-  transform: scale(1.05); /* Memberikan efek zoom saat di-hover */
+  transform: scale(1.05); 
+}
+
+.pengurus,.container-pengurus {
+    justify-content: center;
+    max-width: 100%;
+    
 }
 
 /* Halaman Aktivitas/Berita */
@@ -596,5 +602,128 @@
   }
   .container .videoKegiatanYBG {
     margin-top: 470px;
+  }
+}
+
+/* CARD OFR PENGURUS */
+.card-wrapper {
+  max-width: 1200px;
+  width:100%;
+  margin: 30px auto;
+  
+}
+
+.card-wrapper .carousel {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns; calc((100%/3)) - 12px;
+  gap: 20px;
+  overflow: auto;
+}
+
+
+/* Untuk Chrome, Safari, dan Edge */
+.card-wrapper .carousel::-webkit-scrollbar {
+  display: none; /* Menyembunyikan scrollbar */
+}
+
+.carousel :where( .card-profile,.img){
+  display : flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+
+.carousel .card-profile {
+  margin-top:10px;
+  margin-bottom: 10px;
+  list-style: none;
+  height: 300px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  background: white;
+  border-radius: 10px;
+  display : flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 50px;
+  transition:0.5s;
+}
+
+.carousel .card-profile:hover {
+  transform: scale(1.03);
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+
+  .btn {
+    background : black;
+    border:none;
+    opacity: 1;
+    visibility: visible; 
+    transition: opacity 0.8s ease, visibility 0s; 
+  }
+
+
+}
+
+.card-profile .img {
+  background: black;
+  border-radius : 50%;
+  width: 150px;
+  height: 150px;
+}
+
+.card-profile .img img {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius:50%;
+  margin :5px;
+}
+
+.card-profile h2 {
+  font-weight : 500;
+  margin-top: 10px;
+}
+
+.card-profile span {
+  font-size: 17px;
+  color: #777;
+}
+
+.carousel .card-profile {
+  height:345px;
+}
+.carousel .card-profile .btn {
+  background: transparent; 
+  opacity: 0; 
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0s 0.3s; 
+  border:none;
+
+}
+
+
+/* Chart */
+.chart-bar {
+  position: relative;
+  height: 10rem;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .chart-bar {
+    height: 15rem;
+  }
+}
+
+.chart-pie {
+  position: relative;
+  height: 15rem;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .chart-pie {
+    height: 15rem;
   }
 }

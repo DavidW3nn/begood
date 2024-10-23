@@ -128,16 +128,27 @@
 
 
         {{-- Pengurus YBG --}}
-        <div id="pengurus" class="row mb-5 text-center bg-light rounded shadow-sm justify-content-center">
-            <div class="col-sm-12">
+        <div id="pengurus" class="row mb-5 text-center ">
+            <div class="col-sm-12 bg-light mb-4 rounded shadow-sm justify-content-center">
                 <div class="p-4 ">
                     <h2 class="mb-3 fw-bold">@lang('message.pengurus')</h2>
                 </div>
             </div>
 
-            <div class="row justify-content-center">
+            <div class="container-pengurus row ">
                 <div class="col-md-2 mb-3">
-                    <div class="card pengurus" style="width: 100%;">
+                    <div class="card pengurus" style="width: 150%;">
+                        <img src="{{ asset('assets/image/2.jpg') }}" class="card-img-top rounded-circle" alt=""
+                            style="width: 100px; height: 100px; object-fit: cover; margin: auto; margin-top: 20px;">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Ketua Yayasan</h5>
+                            <p class="card-text">Josephine</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-2 mb-3">
+                    <div class="card pengurus" style="width: 150%;">
                         <img src="{{ asset('assets/image/2.jpg') }}" class="card-img-top rounded-circle" alt=""
                             style="width: 100px; height: 100px; object-fit: cover; margin: auto; margin-top: 20px;">
                         <div class="card-body text-center">
@@ -147,7 +158,7 @@
                     </div>
                 </div>
                 <div class="col-md-2 mb-3">
-                    <div class="card pengurus" style="width: 100%;">
+                    <div class="card pengurus" style="width: 150%;">
                         <img src="{{ asset('assets/image/2.jpg') }}" class="card-img-top rounded-circle" alt=""
                             style="width: 100px; height: 100px; object-fit: cover; margin: auto; margin-top: 20px;">
                         <div class="card-body text-center">
@@ -157,7 +168,7 @@
                     </div>
                 </div>
                 <div class="col-md-2 mb-3">
-                    <div class="card pengurus" style="width: 100%;">
+                    <div class="card pengurus" style="width: 150%;">
                         <img src="{{ asset('assets/image/2.jpg') }}" class="card-img-top rounded-circle" alt=""
                             style="width: 100px; height: 100px; object-fit: cover; margin: auto; margin-top: 20px;">
                         <div class="card-body text-center">
@@ -167,7 +178,7 @@
                     </div>
                 </div>
                 <div class="col-md-2 mb-3">
-                    <div class="card pengurus" style="width: 100%;">
+                    <div class="card pengurus" style="width: 150%;">
                         <img src="{{ asset('assets/image/2.jpg') }}" class="card-img-top rounded-circle" alt=""
                             style="width: 100px; height: 100px; object-fit: cover; margin: auto; margin-top: 20px;">
                         <div class="card-body text-center">
@@ -177,17 +188,7 @@
                     </div>
                 </div>
                 <div class="col-md-2 mb-3">
-                    <div class="card pengurus" style="width: 100%;">
-                        <img src="{{ asset('assets/image/2.jpg') }}" class="card-img-top rounded-circle" alt=""
-                            style="width: 100px; height: 100px; object-fit: cover; margin: auto; margin-top: 20px;">
-                        <div class="card-body text-center">
-                            <h5 class="card-title">Ketua Yayasan</h5>
-                            <p class="card-text">Josephine</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-2 mb-3">
-                    <div class="card pengurus" style="width: 100%;">
+                    <div class="card pengurus" style="width: 150%;">
                         <img src="{{ asset('assets/image/2.jpg') }}" class="card-img-top rounded-circle" alt=""
                             style="width: 100px; height: 100px; object-fit: cover; margin: auto; margin-top: 20px;">
                         <div class="card-body text-center">

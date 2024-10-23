@@ -69,4 +69,11 @@ return [
     'bank' => '银行',
     'atas_nama' => '账户名',
     'tutup' => '关闭',
+    // Profile Detail
+    'koordinator_guru_asuh' => '协调员',
+    'guru_asuh' => '照顾者',
+    'jumlah_guru_asuh' => '照顾者数量',
+    'jumlah_siswa_asuh' => '受照顾学生数量',
+    'biografi_koordinator' => '善良基金会照顾者协调员的传记',
+    'biografi_guru_asuh' => '善良基金会照顾者的传记',
 ];

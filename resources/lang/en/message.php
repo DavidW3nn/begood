@@ -69,4 +69,12 @@ return [
     'bank' => 'Bank',
     'atas_nama' => 'Account Holder',
     'tutup' => 'Close',
+    // Profile Detail
+    'koordinator_guru_asuh' => 'Coordinator of the Caregiver',
+    'guru_asuh' => 'Caregiver',
+    'jumlah_guru_asuh' => 'Number of Caregivers',
+    'jumlah_siswa_asuh' => 'Number of Students Under Care',
+    // Profile Detail
+    'biografi_koordinator' => 'Biography of the Caregiver Coordinator of Be Good Foundation',
+    'biografi_guru_asuh' => 'Biography of the Caregiver of Be Good Foundation',
 ];
