@@ -111,27 +111,15 @@
              </a>
          </div>
 
+
+
+         {{-- Chart --}}
+
          <div class="row">
              <div class="col-sm-6">
                  <div class="bg-white p-4 rounded shadow-sm mb-4">
                      <h1 class="text-center display-7" style="font-weight: bold">@lang('message.jumlah_guru_asuh')</h1>
                  </div>
-             </div>
-             <div class="col-sm-6">
-                 <div class="bg-white p-4 rounded shadow-sm mb-4">
-                     <h1 class="text-center display-7" style="font-weight: bold">@lang('message.jumlah_siswa_asuh')</h1>
-                     </h1>
-                 </div>
-             </div>
-         </div>
-
-         {{-- Chart --}}
-         {{-- Jumlah Guru Asuh --}}
-         {{-- Jumlah Siswa Asuh --}}
-
-         <div class="row">
-             <div class="col-lg-6">
-                 <!-- Bar chart example-->
                  <div class="card mb-4">
                      <div class="card-header">Bar Chart Example</div>
                      <div class="card-body">
@@ -140,8 +128,11 @@
                      <div class="card-footer small text-muted">Updated yesterday at 11:59 PM</div>
                  </div>
              </div>
-             <div class="col-lg-6">
-                 <!-- Pie chart example-->
+
+             <div class="col-sm-6 ">
+                 <div class="bg-white p-4 rounded shadow-sm mb-4">
+                     <h1 class="text-center display-7" style="font-weight: bold">@lang('message.jumlah_siswa_asuh')</h1>
+                 </div>
                  <div class="card mb-4">
                      <div class="card-header">Pie Chart Example</div>
                      <div class="card-body">
@@ -151,6 +142,7 @@
                  </div>
              </div>
          </div>
+
 
          {{-- Button Donasi --}}
          <div class="d-flex justify-content-center align-items-center mt-5" style="height: 10vh;">

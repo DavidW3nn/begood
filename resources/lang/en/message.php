@@ -77,4 +77,10 @@ return [
     // Profile Detail
     'biografi_koordinator' => 'Biography of the Caregiver Coordinator of Be Good Foundation',
     'biografi_guru_asuh' => 'Biography of the Caregiver of Be Good Foundation',
+    // smb
+    'instagram_ybg' => 'Instagram Yayasan Be Good',
+    'jumlah_smb' => 'Number of SMB Kal-Bar',
+    'jumlah_anak_smb' => 'Number of SMB Children',
+    'link_ybg' => 'Link to Yayasan Be Good Instagram',
+    'kunjungi' => 'Visit',
 ];

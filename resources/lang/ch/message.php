@@ -12,7 +12,7 @@ return [
     'bahasa' => '语言',
     'kegiatan_yayasan' => '基金会活动',
     'profile_guru/sekolah' => '教师/学校简介',
-    'SMB_Kalbar' => '加里曼丹西部 SMB',
+    'SMB_Kalbar' => '加里曼丹西部 贝好基金会',
     'bahasa_indonesia' => '印尼语',
     'bahasa_inggris' => '英语',
     'bahasa_mandarin' => '中文',
@@ -76,4 +76,10 @@ return [
     'jumlah_siswa_asuh' => '受照顾学生数量',
     'biografi_koordinator' => '善良基金会照顾者协调员的传记',
     'biografi_guru_asuh' => '善良基金会照顾者的传记',
+    // smb
+    'instagram_ybg' => '贝好基金会的Instagram',
+    'jumlah_smb' => '西加里曼丹贝好基金会的数量',
+    'jumlah_anak_smb' => '贝好基金会儿童数量',
+    'link_ybg' => '贝好基金会的Instagram链接',
+    'kunjungi' => '访问',
 ];

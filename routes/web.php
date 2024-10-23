@@ -131,7 +131,7 @@ Route::get('/profile-teacher-detail', function () {
 
 // SMB
 Route::get('/smb', function () {
-    return view('pages.activity_pages.smb', [
+    return view('pages.activity_pages.smb.index', [
         'title' => 'SMB Kalbar',
     ]);
 });

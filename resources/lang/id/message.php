@@ -78,4 +78,10 @@ return [
     // Profile Detail
     'biografi_koordinator' => 'Biografi Koordinator Guru Asuh Yayasan Be Good',
     'biografi_guru_asuh' => 'Biografi Guru Asuh Yayasan Be Good',
+    // smb
+    'instagram_ybg' => 'Instagram Yayasan Be Good',
+    'jumlah_smb' => 'Jumlah SMB Kal-Bar',
+    'jumlah_anak_smb' => 'Jumlah Anak SMB',
+    'link_ybg' => 'Link Instagram Yayasan Be Good',
+    'kunjungi' => 'Kunjungi',
 ];
