@@ -82,4 +82,12 @@ return [
     'jumlah_anak_smb' => '贝好基金会儿童数量',
     'link_ybg' => '贝好基金会的Instagram链接',
     'kunjungi' => '访问',
+    // Artikel.index
+    'lihat_literasi_lainnya' => '查看其他文献',
+    'lihat_artikel_lainnya' => '查看其他文章',
+    'lihat_video_dhamma_lainnya' => '查看其他法视频',
+    // Daftar Literasi
+    'daftar_literasi' => '文献列表',
+    'daftar_artikel_dhamma' => '法文章列表',
+    'daftar_video_dhamma' => '发文视频列表',
 ];

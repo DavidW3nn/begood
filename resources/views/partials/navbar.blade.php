@@ -71,14 +71,14 @@
 
             {{-- Artikel --}}
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink5"
+                <a class="nav-link dropdown-toggle" href="/article" id="navbarDropdownMenuLink5"
                     data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     @lang('message.artikel')
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink5">
-                    <a class="dropdown-item" href="#">@lang('message.literasi_pendidikan')</a>
-                    <a class="dropdown-item" href="#">@lang('message.artikel_dhamma')</a>
-                    <a class="dropdown-item" href="#">@lang('message.video_dhamma')</a>
+                    <a class="dropdown-item" href="/article/#pendidikan">@lang('message.literasi_pendidikan')</a>
+                    <a class="dropdown-item" href="/article/#artikel">@lang('message.artikel_dhamma')</a>
+                    <a class="dropdown-item" href="/article/#video_dhamma">@lang('message.video_dhamma')</a>
                 </div>
             </li>
 
@@ -89,7 +89,7 @@
                     @lang('message.program')
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink6">
-                    <a class="dropdown-item" href="#">@lang('message.sedang_berjalan')</a>
+                    <a class="dropdown-item" href="#">@lang('message.donasi')</a>
                     <a class="dropdown-item" href="#">@lang('message.sudah_selesai/tutup')</a>
                     <a class="dropdown-item" href="#">@lang('message.yang_akan_datang')</a>
                 </div>

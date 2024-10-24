@@ -84,4 +84,12 @@ return [
     'jumlah_anak_smb' => 'Jumlah Anak SMB',
     'link_ybg' => 'Link Instagram Yayasan Be Good',
     'kunjungi' => 'Kunjungi',
+    // Artikel.index
+    'lihat_literasi_lainnya' => 'Lihat Literasi Lainnya',
+    'lihat_artikel_lainnya' => 'Lihat Artikel Lainnya',
+    'lihat_video_dhamma_lainnya' => 'Lihat Video Dhamma Lainnya',
+    // Daftar Literasi
+    'daftar_literasi' => 'Daftar Literasi',
+    'daftar_artikel_dhamma' => 'Daftar Artikel Dhamma',
+    'daftar_video_dhamma' => 'Daftar Video Dhamma',
 ];

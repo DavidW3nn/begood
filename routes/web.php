@@ -70,6 +70,7 @@ Route::get('/activity', function () {
     ]);
 });
 
+// List video
 Route::get('list-activity-videos', function () {
     return view('pages.activity_pages.listActivityVideos', [
         'title' => 'List Activity Videos',
@@ -133,6 +134,41 @@ Route::get('/profile-teacher-detail', function () {
 Route::get('/smb', function () {
     return view('pages.activity_pages.smb.index', [
         'title' => 'SMB Kalbar',
+    ]);
+});
+
+// Artikel
+Route::get('/article', function () {
+    return view('pages.artikel_pages.index', [
+        'title' => 'Article',
+    ]);
+});
+
+// List Literasi
+Route::get('/list-literacy', function () {
+    return view('pages.artikel_pages.listLiteracy', [
+        'title' => 'Literacy',
+    ]);
+});
+
+// List Artikel Dhamma
+Route::get('/list-article-dhamma', function () {
+    return view('pages.artikel_pages.listArticleDhamma', [
+        'title' => 'Article Dhamma',
+    ]);
+});
+
+// List video dhamma
+Route::get('/list-videos-dhamma', function () {
+    return view('pages.artikel_pages.listVideosDhamma', [
+        'title' => 'Video Dhamma',
+    ]);
+});
+
+// video dhamma detail
+Route::get('/video-detail-dhamma', function () {
+    return view('pages.artikel_pages.videoDetailDhamma', [
+        'title' => 'Detail Video Dhamma',
     ]);
 });
 
