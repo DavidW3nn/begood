@@ -704,6 +704,91 @@
 
 }
 
+/* Program Page */
+/* carousel 1 */
+.carousel-indicators li {
+  background-color: grey;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Menambahkan box shadow */
+  width: 20px;
+  margin:10px;
+  height: 20px;
+  border-radius: 50%;
+  display: inline-block;
+  border:2px solid white;
+}
+
+.carousel-indicators .active {
+  background-color: white;
+}
+
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-image: none;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-control-prev i,
+.carousel-control-next i {
+  color: black;
+  font-size: 20px;
+}
+/* carousel2 */
+#carousel2 .carousel-indicators li {
+  background-color: grey;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Menambahkan box shadow */
+  width: 20px;
+  margin: 10px;
+  height: 20px;
+  border-radius: 50%;
+  display: inline-block;
+  border: 2px solid white;
+}
+
+#carousel2 .carousel-indicators .active {
+  background-color: white;
+}
+
+#carousel2 .carousel-control-prev-icon,
+#carousel2 .carousel-control-next-icon {
+  background-image: none;
+}
+
+#carousel2 .carousel-control-prev,
+#carousel2 .carousel-control-next {
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#carousel2 .carousel-control-prev i,
+#carousel2 .carousel-control-next i {
+  color: black;
+  font-size: 20px;
+}
+
+/* carousel 3 */
+
 
 /* Chart */
 .chart-bar {
@@ -711,6 +796,7 @@
   height: 10rem;
   width: 100%;
 }
+
 @media (min-width: 768px) {
   .chart-bar {
     height: 15rem;

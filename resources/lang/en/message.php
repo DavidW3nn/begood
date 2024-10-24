@@ -91,4 +91,14 @@ return [
     'daftar_literasi' => 'Literacy List',
     'daftar_artikel_dhamma' => 'Dhamma Article List',
     'daftar_video_dhamma' => 'Dhamma Video List',
+    // Program
+    'program_donasi_yang_sedang_berjalan' => 'Ongoing Donation Program',
+    'program_donasi_yang_akan_datang' => 'Upcoming Donation Program',
+    'program_donasi_yang_sudah_selesai' => 'Completed Donation Program',
+    'lihat_program_donasi' => 'See Donation Program',
+    // donate program
+    'jumlah_yang_terkumpul' => 'Total Collected',
+    'jumlah_yang_dibutuhkan' => 'Total Needed',
+    'donasi_melalui_marketplace_kami' => 'Donate through our marketplace',
+    'donasi_langsung_ke_rekening_resmi_kami' => 'Donate directly to our official account',
 ];

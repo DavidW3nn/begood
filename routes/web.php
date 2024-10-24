@@ -172,6 +172,32 @@ Route::get('/video-detail-dhamma', function () {
     ]);
 });
 
+// Program
+Route::get('/program', function () {
+    return view('pages.program_pages.index', [
+        'title' => 'Program',
+        'donasiBerjalan' => ['1.jpg', '2.jpg', '3.jpg'],
+        'donasiAkanDatang' => ['1.jpg', '2.jpg', '3.jpg'],
+        'donasiSelesai' => ['1.jpg', '2.jpg', '3.jpg', '4.jpg'],
+    ]);
+});
+
+// donasi
+Route::get('/program', function () {
+    return view('pages.program_pages.index', [
+        'title' => 'Program',
+        'donasiBerjalan' => ['1.jpg', '2.jpg', '3.jpg'],
+        'donasiAkanDatang' => ['1.jpg', '2.jpg', '3.jpg'],
+        'donasiSelesai' => ['1.jpg', '2.jpg', '3.jpg', '4.jpg'],
+    ]);
+});
+Route::get('/donate', function () {
+    return view('pages.program_pages.donate', [
+        'title' => 'Donate Program',
+        'donasiBerjalan' => ['1.jpg', '2.jpg', '3.jpg'],
+    ]);
+});
+
 // Sinmpan local ke session
 Route::get('/locale/{locale}', function ($locale) {
     if (in_array($locale, ['en', 'id', 'ch'])) {

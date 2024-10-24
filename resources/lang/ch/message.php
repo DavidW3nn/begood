@@ -90,4 +90,15 @@ return [
     'daftar_literasi' => '文献列表',
     'daftar_artikel_dhamma' => '法文章列表',
     'daftar_video_dhamma' => '发文视频列表',
+    // Program
+    'program_donasi_yang_sedang_berjalan' => '正在进行的捐赠项目',
+    'program_donasi_yang_akan_datang' => '即将到来的捐赠项目',
+    'program_donasi_yang_sudah_selesai' => '已完成的捐赠项目',
+    'lihat_program_donasi' => '查看捐赠项目',
+    // donate program
+    'jumlah_yang_terkumpul' => '已筹资金额',
+    'jumlah_yang_dibutuhkan' => '所需金额',
+    'program_donasi_yayasan' => '捐赠项目',
+    'donasi_melalui_marketplace_kami' => '通过我们的市场捐款',
+    'donasi_langsung_ke_rekening_resmi_kami' => '直接向我们的官方账户捐款',
 ];

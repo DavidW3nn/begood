@@ -89,9 +89,9 @@
                     @lang('message.program')
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink6">
-                    <a class="dropdown-item" href="#">@lang('message.donasi')</a>
-                    <a class="dropdown-item" href="#">@lang('message.sudah_selesai/tutup')</a>
-                    <a class="dropdown-item" href="#">@lang('message.yang_akan_datang')</a>
+                    <a class="dropdown-item" href="/program/#donate">@lang('message.donasi')</a>
+                    <a class="dropdown-item" href="/program/#ongoing">@lang('message.sudah_selesai/tutup')</a>
+                    <a class="dropdown-item" href="/program/#upcoming">@lang('message.yang_akan_datang')</a>
                 </div>
             </li>
 

@@ -42,6 +42,7 @@
     <script src="{{ asset('assets/js/home.js') }}"></script>
     <script src="{{ asset('assets/js/activity.js') }}"></script>
     <script src="{{ asset('assets/js/profile.js') }}"></script>
+    {{-- <script src="{{ asset('assets/js/program.js') }}"></script> --}}
 
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>

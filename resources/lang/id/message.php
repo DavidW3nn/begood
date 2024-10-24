@@ -92,4 +92,16 @@ return [
     'daftar_literasi' => 'Daftar Literasi',
     'daftar_artikel_dhamma' => 'Daftar Artikel Dhamma',
     'daftar_video_dhamma' => 'Daftar Video Dhamma',
+    // Program
+    'program_donasi_yang_sedang_berjalan' => 'Program Donasi Yang Sedang Berjalan',
+    'program_donasi_yang_akan_datang' => 'Program Donasi Yang Akan Datang',
+    'program_donasi_yang_sudah_selesai' => 'Program Donasi Yang Sudah Selesai',
+    'lihat_program_donasi' => 'Lihat Program Donasi',
+
+    // donate program
+    'jumlah_yang_terkumpul' => 'Jumlah Yang Terkumpul',
+    'jumlah_yang_dibutuhkan' => 'Jumlah Yang Dibutuhkan',
+    'program_donasi_yayasan' => 'Program Donasi Yayasan',
+    'donasi_melalui_marketplace_kami' => 'Donasi Melalui Marketplace Kami',
+    'donasi_langsung_ke_rekening_resmi_kami' => 'Donasi Langsung Ke Rekening Resmi Kami',
 ];
