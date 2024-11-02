@@ -14,24 +14,14 @@
         {{-- Carousel --}}
         <div class="gallery">
             <div class="gallery-container">
-                <img class="gallery-item gallery-item-1 img-fluid" src="{{ asset('assets/image/1.jpg') }}" alt=""
-                    data-index="1">
-                <img class="gallery-item gallery-item-2 img-fluid" src="{{ asset('assets/image/1.jpg') }}" alt=""
-                    data-index="2">
-                <img class="gallery-item gallery-item-3 img-fluid" src="{{ asset('assets/image/1.jpg') }}" alt=""
-                    data-index="3">
-                <img class="gallery-item gallery-item-4 img-fluid" src="{{ asset('assets/image/1.jpg') }}" alt=""
-                    data-index="4">
-                <img class="gallery-item gallery-item-5 img-fluid" src="{{ asset('assets/image/1.jpg') }}" alt=""
-                    data-index="5">
-                <img class="gallery-item gallery-item-6 img-fluid" src="{{ asset('assets/image/1.jpg') }}" alt=""
-                    data-index="6">
-
+                @foreach ($images as $index => $image)
+                    <img class="gallery-item gallery-item-{{ $index === 0 ? 3 : $index + 1 }} img-fluid"
+                        src="{{ asset('assets/image/' . $image) }}" alt="" data-index="{{ $index + 1 }}">
+                @endforeach
             </div>
-            <div class="gallery-controls">
-
-            </div>
+            <div class="gallery-controls"></div>
         </div>
+
         {{-- End Carousel --}}
 
         {{-- Mengapa Yayasan Be Good --}}

@@ -5,6 +5,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('pages.home', [
         'title' => 'Home',
+        'images' => ['1.jpg', '1.jpg', '1.jpg', '1.jpg', '1.jpg'], // Usahakan imagenya setidaknya harus ada 4 ke atas supaya bagus tampilannya
     ]);
 });
 
@@ -20,7 +21,7 @@ Route::get('/report', function () {
     ]);
 });
 
-// Aktivitas/Beritas
+// Aktivitas/Berita
 // Activity
 Route::get('/activity', function () {
     return view('pages.activity_pages.activity', [
@@ -122,6 +123,7 @@ Route::get('/profile-coordinator-detail', function () {
         'role' => 'coordinator',
     ]);
 });
+
 // Guru asuh detail
 Route::get('/profile-teacher-detail', function () {
     return view('pages.activity_pages.profile.profileDetail', [

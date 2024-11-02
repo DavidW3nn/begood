@@ -111,6 +111,9 @@
 .gallery-container .gallery-item-4 {
   left: 70%;
   transform: translateX(-50%);
+  
+  opacity: 0.8;
+  z-index: 1;
 }
 
 .gallery-container .gallery-item-5 {
@@ -147,7 +150,7 @@
 }
 
 .gallery-controls-previous::before {
-  border: solid white;
+  border: solid rgb(237, 237, 237);
   border-width: 0 5px 5px 0;
   content: "";
   display: inline-block;
@@ -170,7 +173,7 @@
 }
 
 .gallery-controls-next::before {
-  border: solid white;
+  border: solid rgb(237, 237, 237);
   border-width: 0 5px 5px 0;
   content: "";
   display: inline-block;
@@ -206,42 +209,6 @@
 
 .gallery nav li.gallery-item-selected {
   background: #555;
-}
-
-@media (max-width: 768px) {
-  .gallery-controls-previous::before {
-    left: -150px; /* Sesuaikan untuk tablet dan perangkat kecil */
-    top: 20px;
-  }
-  .gallery-controls-next::before {
-    right: -130px; /* Sesuaikan untuk tablet dan perangkat kecil */
-    top: 20px;
-  }
-  .gallery {
-    overflow-x: hidden; /* Menghilangkan overflow-x */
-  }
-}
-
-@media (max-width: 425px) {
-  .gallery-controls-previous::before {
-    left: -120px; /* Sesuaikan untuk perangkat ponsel */
-    top: 15px;
-  }
-  .gallery-controls-next::before {
-    right: -100px; /* Sesuaikan untuk perangkat ponsel */
-    top: 15px;
-  }
-}
-
-@media (max-width: 320px) {
-  .gallery-controls-previous::before {
-    left: -70px; /* Sesuaikan untuk perangkat ponsel */
-    top: 15px;
-  }
-  .gallery-controls-next::before {
-    right: -50px; /* Sesuaikan untuk perangkat ponsel */
-    top: 15px;
-  }
 }
 
 /* Card untuk Struktur Yayasan dan Pengurus */
@@ -402,9 +369,9 @@
 .videoKegiatanYBG {
   margin-top: 680px;
 }
-   */
-/* Responsive */
 
+
+/* Responsive */
 @media (max-width: 1440px) {
   .slider {
     margin-top: 100px;
@@ -491,9 +458,32 @@
   .container .videoKegiatanYBG {
     margin-top: 470px;
   }
+  .gallery-container .gallery-item-3 {
+    left: 50%;
+  }
+  .gallery-controls-previous::before {
+    left: -250px; /* Sesuaikan untuk tablet dan perangkat kecil */
+    top: 20px;
+  }
+  .gallery-controls-next::before {
+    right: -230px; /* Sesuaikan untuk tablet dan perangkat kecil */
+    top: 20px;
+  }
 }
 
 @media (max-width: 425px) {
+  .gallery-container .gallery-item-3 {
+    left: 60%;
+  }
+  .gallery-controls-previous::before {
+    left: -130px; 
+    top: 15px;
+  }
+  .gallery-controls-next::before {
+    right: -190px; 
+    top: 15px;
+  }
+
   .content {
     padding: 15px;
     max-width: 280px;
@@ -545,6 +535,16 @@
 }
 
 @media (max-width: 375px) {
+
+  .gallery-controls-previous::before {
+    left: -110px; 
+    top: 15px;
+  }
+  .gallery-controls-next::before {
+    right: -160px; 
+    top: 15px;
+  }
+
   /* Slider */
   .slider {
     margin-top: 140px;
@@ -602,6 +602,15 @@
   }
   .container .videoKegiatanYBG {
     margin-top: 470px;
+  }
+
+  .gallery-controls-previous::before {
+    left: -80px; 
+    top: 15px;
+  }
+  .gallery-controls-next::before {
+    right: -130px; 
+    top: 15px;
   }
 }
 

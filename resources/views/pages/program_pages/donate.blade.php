@@ -31,8 +31,8 @@
                             <p class="card-text font-weight-bold">@lang('message.jumlah_yang_terkumpul')</p>
                             <h2 style="font-weight: bold">Rp 140.000.000</h2>
                         </div>
-                        <a href="#/" class="btn btn-dark mt-3">@lang('message.donasi')</a>
-
+                        <a href="https://danaparamitaabi.or.id/programdonasi.html" target="_blank"
+                            class="btn btn-dark mt-3">@lang('message.donasi')</a>
                     </div>
                 </div>
             </div>
@@ -57,7 +57,8 @@
                             <p class="card-text font-weight-bold">@lang('message.jumlah_yang_terkumpul')</p>
                             <h2 style="font-weight: bold">Rp 140.000.000</h2>
                         </div>
-                        <a href="#/" class="btn btn-dark mt-3">@lang('message.donasi')</a>
+                        <a href="https://danaparamitaabi.or.id/programdonasi.html" target="_blank"
+                            class="btn btn-dark mt-3">@lang('message.donasi')</a>
 
                     </div>
                 </div>
