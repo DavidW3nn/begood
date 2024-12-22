@@ -207,3 +207,15 @@ Route::get('/locale/{locale}', function ($locale) {
     }
     return redirect()->back();
 })->name('locale');
+
+// Admin
+Route::get('/admin', function () {
+    return view('admin.login', [
+        'title' => 'Admin',
+    ]);
+});
+
+// index
+Route::get('/admin/index', function () {
+    return view('admin.pages.index');
+});
